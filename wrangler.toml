@@ -5,3 +5,6 @@ compatibility_date = "2023-02-28"
 # wrangler.toml (wrangler v3.88.0^)
 [observability.logs]
 enabled = true
+kv_namespaces = [
+         { binding = "CACHE", id = "16f866270a6b439e9e9901d44f3e7fbd" }
+]
